@@ -47,7 +47,7 @@ exports.update = function (req, res) {
             if (err) {
                 return handleError(res, err);
             }
-            return res.json(200, ads);
+            return res.json(200, ad);
         });
     });
 };
