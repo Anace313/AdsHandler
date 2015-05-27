@@ -1,0 +1,99 @@
+.item {
+  display: inline-block;
+  width: 305px;
+  height: 350px;
+  margin: 20px;
+  .ad-header {
+    img {
+      max-height: 130px;
+      max-width: 305px;
+      width: 305px;
+    }
+    .active {
+      border-bottom: solid 4px $brand-green;
+    }
+    .not-active {
+      border-bottom: solid 4px $brand-red;
+    }
+  }
+  .ad-title {
+    font-size: 24px;
+    color: $brand-white;
+    z-index: 100;
+    position: relative;
+    top: -75px;
+    left: 15px;
+    text-shadow: 3px 3px 3px #5C5C5C;
+  }
+  .fa-check {
+    font-size: 35px;
+    color: white;
+    z-index: 100;
+    position: relative;
+    top: -55px;
+    right: -85%;
+    padding: 0;
+    border-radius: 50%;
+    background-color: $brand-green;
+    display: block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+  }
+  .fa-times {
+    font-size: 35px;
+    color: white;
+    z-index: 100;
+    position: relative;
+    top: -55px;
+    right: -85%;
+    padding: 0;
+    border-radius: 50%;
+    background-color: $brand-red;
+    display: block;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+  }
+  table {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: -55px;
+  }
+  .data-title {
+    text-align: right;
+    padding: 4px;
+    color: $brand-font-color-title;
+
+  }
+  .data-details {
+    text-align: left;
+    padding: 4px;
+    color: $brand-font-color-body;
+  }
+  .edit-btn {
+    float: right;
+    margin-right: 15px;
+  }
+  .remove-btn {
+    margin-left: 15px;
+  }
+
+}
+
+.add-new-ad {
+  font-size: 35px;
+  color: white;
+  z-index: 100;
+  position: fixed;
+  bottom: 35px;
+  right: 30px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: $brand-grey;
+  display: block;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+}
