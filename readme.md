@@ -33,3 +33,5 @@ Some known improvements :-)
 
  -  Code wants to have more comments
  -  Design needs some improvements
+ -  Cleanning code and deleting console logs
+ -  Error handling Should be more accurate and silent in production environment( by Adding another one for development)
