@@ -1,0 +1,42 @@
+<html ng-app="adsHandlerApp">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- inject:css -->
+    <!-- endinject -->
+    <link href="/components/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="/components/style/style.css" rel="stylesheet">
+
+    <script src="/components/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/components/bower_components/angular/angular.js"></script>
+    <script src="/components/bower_components/angular-resource/angular-resource.js"></script>
+    <script src="/components/bower_components/lodash/lodash.js"></script>
+    <script src="/components/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/components/bower_components/masonry/masonry.js"></script>
+
+    <script src="/components/js/app.js"></script>
+    <script src="/components/js/services/AdsService.js"></script>
+    <script src="/components/js/controllers/adsController.js"></script>
+    <script src="/components/js/directives/adDirective.js"></script>
+    <script src="/components/js/controllers/adDirectiveController.js"></script>
+    <script src="/components/js/controllers/editAdController.js"></script>
+
+</head>
+<body>
+<header>
+    <nav id="container" class="navigation-bar">
+        <ul class="">
+            <li class="active"><a href="/#/">Ads <span class="sr-only">(current)</span></a></li>
+            <li><a href="/#/about">about</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="content-container" ui-view=""></div>
+
+
+<!-- inject:js -->
+<!-- endinject -->
+
+</body>
+</html>
