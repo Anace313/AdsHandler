@@ -1,0 +1,57 @@
+<div class="edit-form">
+    <h2>Edit Ad</h2>
+
+    <form>
+        <fieldset disabled>
+            <div class="form-group">
+                <label for="id">ID</label>
+                <input type="text" id="ID" class="form-control" placeholder="ID" ng-model="ad._id">
+            </div>
+        </fieldset>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" ng-model="ad.name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="campaignName">Campaign Name</label>
+            <input type="text" class="form-control" id="campaignName" ng-model="ad.campaignName"
+                   placeholder="Campaign Name">
+        </div>
+        <div class="form-group">
+            <label for="picture">Picture URL</label>
+            <input type="text" class="form-control" id="picture" ng-model="ad.picture"
+                   placeholder="Picture URL">
+        </div>
+        <div class="form-group">
+            <label for="impressions">Impressions</label>
+            <input type="text" class="form-control" id="impressions" ng-model="ad.impressions"
+                   placeholder="Impressions">
+        </div>
+        <div class="form-group">
+            <label for="spend">Spend</label>
+            <input type="text" class="form-control" id="spend" ng-model="ad.spend"
+                   placeholder="spend">
+        </div>
+        <div class="form-group">
+            <label for="description">description</label>
+            <textarea rows="8" type="text" class="form-control" id="description" ng-model="ad.description"
+                      placeholder="description"/>
+        </div>
+
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" ng-model="ad.isActive" ng-checked="ad.isActive"> Is Active?
+            </label>
+        </div>
+        <fieldset disabled>
+            <div class="form-group">
+                <label for="created">Created</label>
+                <input type="text" id="created" class="form-control" placeholder="created" ng-model="ad.created">
+            </div>
+        </fieldset>
+        <div class="form-footer">
+            <button ng-click="editAd()" class="btn btn-default">Edit</button>
+            <button ng-click="cancel()" class="btn btn-default">Cancel</button>
+        </div>
+    </form>
+</div>
