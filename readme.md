@@ -19,10 +19,9 @@ open your termenal
     $ cd location/to/project
     $ npm install
     $ bower install
+    $ mongod
     $ cd app 
     $ node app
 
 then go to your browser (chrome is preferable :) ) and open:
  [http://localhost:4000/](http://localhost:4000/)
-
-
