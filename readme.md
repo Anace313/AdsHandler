@@ -7,7 +7,8 @@ open your termenal
 $ cd location/to/project
 $ npm install
 $ bower install
-$ cd app € node app
+$ cd app
+$ node app
 
-then go to your browser (chrome is preferable :) ) and open:
- http://localhost:4000/
+then go to your browser (chrome is preferable :) ) and open: 
+http://localhost:4000/
