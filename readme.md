@@ -23,5 +23,15 @@ open your termenal
     $ cd app 
     $ node app
 
-then go to your browser (chrome is preferable :) ) and open:
+then go to your browser (chrome is preferable :-) ) and open:
  [http://localhost:4000/](http://localhost:4000/)
+
+
+----------
+
+Some known improvements :-)
+
+ -  Code wants to have more comments
+ -  Design needs some improvements
+ -  Cleanning code and deleting console logs
+ -  Error handling Should be more accurate and silent in production environment( by Adding another one for development)
