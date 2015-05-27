@@ -17,5 +17,10 @@ angular.module('adsHandlerApp', ['ui.router'])
                 url: '/edit/{id}',
                 templateUrl: '/views/editAd.html',
                 controller: 'editAdController'
+            })
+            .state('create', {
+                url: '/create',
+                templateUrl: '/views/createNewAd.html',
+                controller: 'createNewAdController'
             });
     });

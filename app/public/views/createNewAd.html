@@ -1,0 +1,35 @@
+<div class="edit-form">
+    <h2>Create New Ad</h2>
+
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" ng-model="ad.name" placeholder="Name">
+        </div>
+        <div class="form-group">
+            <label for="campaignName">Campaign Name</label>
+            <input type="text" class="form-control" id="campaignName" ng-model="ad.campaignName"
+                   placeholder="Campaign Name">
+        </div>
+        <div class="form-group">
+            <label for="picture">Picture URL</label>
+            <input type="text" class="form-control" id="picture" ng-model="ad.picture"
+                   placeholder="Picture URL">
+        </div>
+        <div class="form-group">
+            <label for="description">description</label>
+            <textarea rows="8" type="text" class="form-control" id="description" ng-model="ad.description"
+                      placeholder="description"/>
+        </div>
+
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" ng-model="ad.isActive"> Is Active?
+            </label>
+        </div>
+        <div class="form-footer">
+            <button ng-click="create()" class="btn btn-default">Create</button>
+            <button ng-click="cancel()" class="btn btn-default">Cancel</button>
+        </div>
+    </form>
+</div>
