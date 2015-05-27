@@ -12,7 +12,7 @@ The use cases involve presenting them in a list, adding, modifying and deleting 
 ----------
 
 
-To test the App you need to have node and mongodb installed in your machine follow these steps to test it:
+To test the App you need to have **node** and **mongodb** installed in your machine follow these steps to test it:
 
 open your termenal
 
@@ -24,3 +24,5 @@ open your termenal
 
 then go to your browser (chrome is preferable :) ) and open:
  [http://localhost:4000/](http://localhost:4000/)
+
+
