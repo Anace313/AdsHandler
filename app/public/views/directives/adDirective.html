@@ -1,0 +1,27 @@
+<div class="item col-lg-4 col-xs-10 col-md-6">
+    <div class="ad-header">
+        <img src={{adData.picture}} class="header-image" ng-class="adData.isActive?'active':'not-active'">
+
+        <div class="ad-title">{{adData.name}}</div>
+    </div>
+    <div class="active">
+        <i ng-if="adData.isActive" class="fa fa-check"></i>
+        <i ng-if="!adData.isActive" class="fa fa-times"></i>
+    </div>
+    <table>
+        <tr>
+            <td class="data-title">Campaign</td>
+            <td class="data-details">{{adData.campaignName}}</td>
+        </tr>
+        <tr>
+            <td class="data-title">Impressions</td>
+            <td class="data-details">{{adData.impressions}}</td>
+        </tr>
+        <tr>
+            <td class="data-title">Spent</td>
+            <td class="data-details">{{adData.spend}}</td>
+        </tr>
+    </table>
+    <button class="remove-btn" ng-click="rem(adData._id)">Remove</button>
+    <button class="edit-btn"><a href="/#/edit/{{adData._id}}">Edit</a></button>
+</div>
