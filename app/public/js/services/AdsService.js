@@ -14,5 +14,5 @@ angular.module('adsHandlerApp')
         };
         this.createNew = function (newAd) {
             return $http.post('http://localhost:4000/api/ads/', newAd);
-        }
+        };
     }]);

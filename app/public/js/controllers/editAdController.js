@@ -12,7 +12,6 @@ angular.module('adsHandlerApp')
                     });
             };
             getAd();
-
             $scope.editAd = function () {
                 var ads = AdsService.updateAd($scope.ad._id, $scope.ad);
                 ads.then(
@@ -24,10 +23,8 @@ angular.module('adsHandlerApp')
                         console.log('failure loading ads', err);
                     });
             };
-
             $scope.cancel = function () {
                 $rootScope.$broadcast('UpdateAds');
                 $location.path('/#/')
             }
-
-        }])
+        }]);

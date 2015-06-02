@@ -18,7 +18,6 @@ angular.module('adsHandlerApp')
             $scope.create = function () {
                 $location.path('/create')
             }
-
-        }])
+        }]);
 
 
